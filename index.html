@@ -7,6 +7,7 @@
   <title>Politikwissenschaft A – Lernkarten</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23112a46'/%3E%3Cpath d='M8 9h16v14H8z' fill='none' stroke='%239be0d0' stroke-width='2'/%3E%3Cpath d='M11 14h10M11 18h7' stroke='%23fff' stroke-width='2'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="style.css">
+  <style>.explanation{margin-top:1.1rem;background:var(--soft);border-left:4px solid var(--teal);padding:.75rem .9rem;border-radius:.3rem .65rem .65rem .3rem;color:#294a57;font-size:.93rem;line-height:1.5}.explanation p{margin:0 0 .25rem;color:var(--teal);font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em}.explanation div{margin:0}</style>
 </head>
 <body>
   <header class="topbar"><div class="brand"><span class="brand-mark">PW</span><div><strong>Politikwissenschaft A</strong><small>Prüfungsorientierte Lernkarten</small></div></div><div id="overallProgress" class="overall"></div></header>
@@ -22,7 +23,7 @@
     <section id="learn" class="view">
       <div class="learn-head"><button class="text-button" data-action="back">← Übersicht</button><div id="learnMeta"></div><button class="text-button" data-action="shuffle">Zufällig mischen</button></div>
       <div class="progress-track"><span id="learnProgress"></span></div>
-      <article id="card" class="flashcard" tabindex="0" role="button" aria-label="Karte umdrehen"><div class="card-side front"><p class="card-label">Vorderseite</p><h2 id="cardQuestion"></h2><p class="flip-hint">Leertaste oder Klick zum Umdrehen</p></div><div class="card-side back"><p class="card-label">Rückseite</p><div id="cardAnswer"></div><p id="cardSource" class="source"></p></div></article>
+      <article id="card" class="flashcard" tabindex="0" role="button" aria-label="Karte umdrehen"><div class="card-side front"><p class="card-label">Vorderseite</p><h2 id="cardQuestion"></h2><p class="flip-hint">Leertaste oder Klick zum Umdrehen</p></div><div class="card-side back"><p class="card-label">Rückseite</p><div id="cardAnswer"></div><aside class="explanation"><p>Einordnung</p><div id="cardExplanation"></div></aside><p id="cardSource" class="source"></p></div></article>
       <div class="learn-controls"><button data-action="previous">← Zurück</button><button class="flip" data-action="flip">Umdrehen <kbd>Leertaste</kbd></button><button data-action="next">Weiter →</button></div>
       <div id="ratingControls" class="ratings" hidden><button class="again" data-rate="again"><kbd>1</kbd> Noch nicht gewusst</button><button class="hard" data-rate="hard"><kbd>2</kbd> Schwierig</button><button class="good" data-rate="good"><kbd>3</kbd> Gut gewusst</button></div>
       <p class="keyboard">Tastatur: <kbd>Leertaste</kbd> umdrehen · <kbd>←</kbd>/<kbd>→</kbd> navigieren · <kbd>1</kbd>–<kbd>3</kbd> bewerten</p>
