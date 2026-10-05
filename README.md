@@ -8,10 +8,10 @@
 
 | Themenblock | Karten |
 |---|---:|
-| Politik & Politikwissenschaft | 18 |
-| Macht | 18 |
-| Ideologien | 22 |
-| **Gesamt** | **58** |
+| Politik & Politikwissenschaft | 34 |
+| Macht | 26 |
+| Ideologien | 42 |
+| **Gesamt** | **102** |
 
 ## Nutzung
 
